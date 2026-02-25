@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 FEB 2026 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 FEB 2026 00:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -235,37 +235,32 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@cols=\count286
 \TX@ftn=\toks25
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
-)
-
-LaTeX Warning: Unused global option(s):
-    [10.99999999999999pt].
-
-(./Aspen_Johnson_Resume.aux)
+) (./Aspen_Johnson_Resume.aux)
 \openout1 = `Aspen_Johnson_Resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -280,7 +275,7 @@ LaTeX Font Info:    ... okay on input line 129.
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks27
 )
-Package hyperref Info: Link coloring ON on input line 129.
+Package hyperref Info: Link coloring ON on input line 130.
  (./Aspen_Johnson_Resume.out) (./Aspen_Johnson_Resume.out)
 \@outlinefile=\write3
 \openout3 = `Aspen_Johnson_Resume.out'.
@@ -288,47 +283,61 @@ Package hyperref Info: Link coloring ON on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 138.
+(Font)              using `OT1/cmr/bx/n' instead on input line 139.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 138.
+(Font)              <24.88> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 138.
+(Font)              <20.74> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 138.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 138.
+(Font)              <17.28> on input line 139.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 139.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 139.
+(Font)              <7> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 139.
+(Font)              <5> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 139.
+(Font)              <10.95> on input line 153.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 152.
+(Font)              <8> on input line 153.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 153.
 
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 348--354
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (36.09833pt too wide) in alignment at lines 305--305
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 2401) in paragraph at lines 366--372
+\OT1/cmr/bx/n/10 Web & Cloud\OT1/cmr/m/n/10 : Re-act/Next.js, Flask, Su-pabase,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--372
 
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 363--366
-\OT1/cmr/bx/n/9 Interesting Facts\OT1/cmr/m/n/9 : Own and run an ed-u-ca-tional and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
  []
 
@@ -336,10 +345,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--366
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2] (./Aspen_Johnson_Resume.aux)
+[3] (./Aspen_Johnson_Resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -348,22 +357,28 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Aspen_Johnson_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: 36D24828B3A79F5AAC6268CF1C02A05A;771.
+
+Package rerunfilecheck Warning: File `Aspen_Johnson_Resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Aspen_Johnson_Resume.out':
+(rerunfilecheck)             Before: 36D24828B3A79F5AAC6268CF1C02A05A;771
+(rerunfilecheck)             After:  720A3B39D36A3F3E954CEF312E4F7C50;874.
  ) 
 Here is how much of TeX's memory you used:
- 10916 strings out of 473190
- 173009 string characters out of 5715801
- 618470 words of memory out of 5000000
- 34039 multiletter control sequences out of 15000+600000
- 567101 words of font info for 68 fonts, out of 8000000 for 9000
+ 10920 strings out of 473190
+ 173061 string characters out of 5715801
+ 612403 words of memory out of 5000000
+ 34043 multiletter control sequences out of 15000+600000
+ 568122 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,364b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on Aspen_Johnson_Resume.pdf (2 pages, 148020 bytes).
+ 75i,11n,79p,364b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Aspen_Johnson_Resume.pdf (3 pages, 123129 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

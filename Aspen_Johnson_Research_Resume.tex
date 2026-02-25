@@ -5,8 +5,7 @@
 % License : MIT
 %------------------------
 
-% Originally was 10.999999999999pt, as information gets more extensive, get closer to this value %
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.99999999999999pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -29,18 +28,6 @@
 }
 
 \urlstyle{same}
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -112,8 +99,6 @@
     \end{tabular*}\vspace{-6pt}
 }
 
-
-
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -130,11 +115,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape \underline{Aspen Johnson}} \\ \vspace{1pt}
     \small +1 (561) 299-8424 $|$ \href{mailto:aspenjohnson2024@gmail.com}{aspenjohnson2024@gmail.com} $|$
@@ -144,21 +124,19 @@
 \end{center}
 
 %-----------EDUCATION-----------
-
 \section{Education}
   \resumeSubHeadingListStart
     \resumeEducationEntry
       {Valdosta State University}
-      {B.S in Data Science: Computational Science and Engineering Track}
+      {B.S in Data Science: Computational Sci. \& Eng. Track, Minors in Physics and Math}
       {Expected: 2027, GPA: N/A}
-      \emph{Minors: Physics, and Mathematics}
 
     \resumeEducationEntry
       {Palm Beach State}
       {A.A in STEM: Mechanical/ Aerospace Engineering Track}
       {Expected: Summer 2026, GPA: 3.5}
   \resumeSubHeadingListEnd
-  
+
 %-----------PUBLICATIONS-----------
 \section{Publications}
   \resumeSubHeadingListStart
@@ -169,117 +147,95 @@
     \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-  
-%-----------EXPERIENCE-----------
-\section{Experience}
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
   \resumeSubHeadingListStart
 
   \resumeSubheading
     {Econometrics Researcher}{Jan 2025 – Dec 2025}
-    {Mercer University }{On-Site/Remote}
+    {Mercer University}{On-Site/Remote}
     \resumeItemListStart
-      \resumeItem{Giving humanoids intelligence through hierarchical System-1/System-2 control.}
-      \resumeItem{Adapting LLM agent-based planning with robot APIs to orchestrate full-body humanoid control.}
-      \resumeItem{Combining policy-based locomotion controllers with VLA manipulation models for coordinated loco-manipulation.}
-      \resumeItem{Leveraging teleoperation and imitation learning to adapt pretrained VLAs for G1’s embodiment and dexterous tasks.}
+     \resumeItem{Co-authored and empirically tested the Hessian-filter scaled Beta-t-EGARCH volatility model, improving the traditional score driven filters with Newton-type gradient scaling.}
+     \resumeItem{Analyzed log returns of high, in-demand, and volatile assets such as Bitcoin, S\&P500 (IVV), Gold(IAU), U.S REITs, and the CHF/JPY for the period 2010-2025.}
+     \resumeItem{Proved model robustness through major volatility shock events (COVID-19, 2022 Ukraine Invasion, 2023 Gaza conflict, and a 2025 presedential transition).}
+   \resumeItemListEnd
+
+  \resumeSubheading
+    {AI Researcher -- BAIR -- Prof.\ Gireeja Ranade}{April 2025 – Present}
+    {UC Berkeley AI Research Lab}{Hybrid}
+    \resumeItemListStart
+      \resumeItem{Conducted research on transformer-based control, applying in-context learning to stabilize nonlinear and unstable dynamical
+      systems (cartpole, acrobot).}
+      \resumeItem{Designed and implemented a GPT-2–based few-shot controller that learns control strategies without retraining.}
+      \resumeItem{Demonstrated generalization to unseen dynamics without weight updates or explicit system identification.}
     \resumeItemListEnd
 
   \resumeSubheading
-    {Financial Analyst Intern}{May 2025 – December 2025}
-    {\href{https://www.zinzino.com/site/us/en-us/}{Zinzino USA}}{Remote}
+    {AI Researcher -- AIFARMS, NCSA, CDA -- Prof.\ Vikram Adve}{Oct 2024 – Present}
+    {University of Illinois at Urbana-Champaign}{On-Site}
     \resumeItemListStart
-      \resumeItem{Conducted research on transformer-based control, applying in-context learning to stabilize nonlinear and unstable dynamical systems.}
-      \resumeItem{Designed and implemented \textbf{SAAM} (State-Action to Action Model), a GPT-2–based few-shot controller that learns control strategies without retraining.}
-      \resumeItem{Achieved adaptation to unseen dynamics and parameters \textbf{without weight updates or explicit system identification}, enabling generalization at inference.}
-      \resumeItem{Paper on this work expected in Q4 2025.}
+      \resumeItem{Developing tools for LLM integration in production-scale chatbots, enhancing agentic workflows, which facilitated over 10,000 conversations and the efficient resolution of over 13,500 real-world problems.}
+      \resumeItem{Implementing AI-driven solutions to increase the efficiency of current agricultural practices at scale.}
+      \resumeItem{Building and researching agents, RFT, RAG, Reasoning, and pre/post training to advance AI capabilities in agriculture.}
+      \resumeItem{Researching agentic LLM systems for agriculture: hierarchical multi-agent orchestration, context retrieval/management, and task delegation across specialized agents.}
+      \resumeItem{Building tools (CSV, Shapefile agents) enabling LLMs to interact meaningfully with heterogeneous farm data streams.}
     \resumeItemListEnd
 
+  \resumeSubHeadingListEnd
 
-  \resumeSubheading
-      {Financial Analyst Intern}{May 2025 – December 2025}
-      {\href{https://aganswers.ai/}{AgAnswers.ai}}{Remote}
-      \resumeItemListStart
-        \resumeItem{Architected and developed full-stack AI platform for agricultural automation, including React/Next.js frontend with real-time chat interface and Python Flask backend with a vast network of llms, tools, and agents.}
-        \resumeItem{Built production-scale document processing system with vector databases, embedding models, and multi-modal analysis capabilities for any data source.}
-        \resumeItem{Building agentic workflows for ag, enabling automated decision-making for everything from data management to equipment monitoring.}
-        \resumeItem{Deployed scalable infrastructure using Docker, Vercel, Railway, and Supabase, handling document ingestion queues, user authentication, and real-time streaming responses.}
-      \resumeItemListEnd
-
-  \resumeSubheading
-      {AI/ML Researcher and Engineer}{Nov 2024 – Present}
-      {AIFARMS, NCSA, and Center for Digital Agriculture}{On-Site}
-      \resumeItemListStart
-        \resumeItem{Developing tools for LLM integration in production-scale chatbots, enhancing agentic workflows, which facilitated over 10,000 conversations and the efficient resolution of over 13,500 real-world problems.}
-        \resumeItem{Implementing AI-driven solutions to increase the efficiency of current agricultural practices at scale.}
-        \resumeItem{Building and researching agents, RFT, RAG, Reasoning, and pre/post training to advance AI capabilities in agriculture.}
-      \resumeItemListEnd
-
+%-----------TEACHING EXPERIENCE-----------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
     \resumeSubheading
-      {AI Engineer}{May 2025 – Aug 2025}
-      {BrightTech AI \& Qsystems AI (worked with both teams)}{On-Site}
+      {Course Assistant \& Project Manager -- CS 124}{Dec 2023 – May 2024}
+      {University of Illinois at Urbana-Champaign}{On-Site}
       \resumeItemListStart
-        \resumeItem{Architected and implemented CSV comparison agent system with intelligent schema detection, automated key column identification, and human-readable difference reporting, enabling seamless data reconciliation across disparate datasets.}
-        \resumeItem{Built comprehensive contact intelligence pipeline processing 15+ standardized fields through two-stage agent architecture: signal collection (LinkedIn, news APIs, social media) and persona analysis, generating executive briefings with temporal scoring and credibility signals.}
-        \resumeItem{Developed 25+ specialized AI tools including BrightData integration, publication analysis, social media monitoring, and batch processing capabilities, supporting parallel execution with Redis/Celery job queues for high-volume enterprise workflows.}
-        \resumeItem{Engineered CrewAI-based orchestration system with YAML configuration management, enabling scalable agent deployment across research, customer acquisition, and sales optimization workflows with 30-45 second per-contact processing latency.}
+        \resumeItem{Tutored students and led office hours for introductory computer science course.}
+        \resumeItem{Mentored undergraduate teams through semester-long AI projects (Honors section).}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%-----------INDUSTRY & ENGINEERING EXPERIENCE-----------
+\section{Industry \& Engineering Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {Co-founder, CTO, Lead AI/ML Engineer -- \href{https://aganswers.ai/}{AgAnswers.ai}}{May 2025 – Present}
+    {Full-stack AI platform with multi-agent orchestration, vector DBs, and knowledge graphs}{Remote}
+    \resumeItemListStart
+      \resumeItem{Architected and developed full-stack AI platform for agricultural automation, including React/Next.js frontend with real-time chat interface and Python Flask backend with a vast network of llms, tools, and agents.}
+      \resumeItem{Built production-scale document processing system with vector databases, embedding models, and multi-modal analysis capabilities for any data source.}
+      \resumeItem{Building agentic workflows for ag, enabling automated decision-making for everything from data management to equipment monitoring.}
+      \resumeItem{Deployed scalable infrastructure using Docker, Vercel, Railway, and Supabase, handling document ingestion queues, user authentication, and real-time streaming responses.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+      {AI Engineer -- BrightTech AI \& Qsystems AI}{May 2025 – Aug 2025}
+      {Built AI tools and CrewAI-based multi-agent orchestration for enterprise workflows}{On-Site}
+      \resumeItemListStart
+        \resumeItem{Architected and implemented CSV comparison agent system with intelligent schema detection, automated key column identification, and human-readable difference reporting.}
+        \resumeItem{Built comprehensive contact intelligence pipeline processing 15+ standardized fields through two-stage agent architecture: signal collection and persona analysis.}
+        \resumeItem{Developed 25+ specialized AI tools including BrightData integration, publication analysis, social media monitoring, and batch processing capabilities.}
+        \resumeItem{Engineered CrewAI-based orchestration system with YAML configuration management, enabling scalable agent deployment (30-45 second per-contact processing latency).}
       \resumeItemListEnd
 
   \resumeSubheading
-      {Startup (Signed NDA)}{May 2024 – Aug 2024}
-      {Founding AI/ML Engineer}{Remote}
+      {Founding AI/ML Engineer -- Startup (NDA)}{May 2024 – Aug 2024}
+      {Novel RAG architectures and hybrid embedding classification for resource-constrained NLP}{Remote}
       \resumeItemListStart
         \resumeItem{Engineered advanced NLP systems, optimizing Retrieval-Augmented Generation (RAG) and intent classification.}
-        \resumeItem{Designed a novel "wavular" RAG approach and hybrid embedding-based classification system.}
+        \resumeItem{Designed a novel ``wavular'' RAG approach and hybrid embedding-based classification system.}
         \resumeItem{Applied vector space models, similarity metrics (cosine, Euclidean), and text representation methods.}
-        \resumeItem{Managed large-scale NLP datasets with complex preprocessing, delivering innovative solutions for NLP challenges in resource-constrained environments.}
+        \resumeItem{Managed large-scale NLP datasets with complex preprocessing for resource-constrained environments.}
       \resumeItemListEnd
       
-    \resumeSubheading
-      {\href{https://www.aaxiom.org/}{AAXIOM.org} | My Startup Portfolio}{March 2023 – Present}
-      {FOUNDER, Sole Developer}{}
-      \resumeItemListStart
-        \resumeItem{NVRALONE peaked at \$10K/month in profit, IlliniPlan over 1k active users, and Voxed (Acquired May 2025).}
-      \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
+  \resumeSubheading
+      {Founder -- \href{https://www.aaxiom.org/}{AAXIOM.org} Startup Portfolio}{March 2023 – Aug 2025}
+      {NVRALONE (\$10K/month peak), IlliniPlan (1k+ users), Voxed (Acquired May 2025)}{}
 
-    % \resumeSubheading
-    %   {Amara Andrews Mayoral Campaign}{May. 2022 -- Nov. 2022}
-    %   {Mayoral Campaign Volunteer}{Cedar Rapids, IA}
-      % \resumeItemListStart
-      %   \resumeItem{Provided strategic recommendations for community outreach and voter engagement.}
-      %   \resumeItem{Contributed to campaign planning and execution, including social media strategies and event planning.}
-    % \resumeItemListEnd
-
-    % \resumeSubheading
-    %   {Project Manager for CS124 Honors and Course Assistant CS124}{Dec. 2023 -- May. 2024}
-    %   {}{}
-    % \resumeSubheading
-    %   {}{Dec. 2023 -- May. 2024}
-    %   {}{The University of Illinois at Urbana-Champaign}
-
-% End of the subheading list
-    \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
 
 %-----------AI/ML PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-
-        \resumeProjectHeading
-          {\textbf{WritGenius | AI \& Agents for Law} $|$ \emph{TypeScript, Google ADK}}{}
-          \resumeItemListStart
-            \resumeItem{Developing a multi-agent system to assist with legal work.}
-            \resumeItem{Currently working with a law firm to automate writs, pleas, and other legal documents.}
-          \resumeItemListEnd
-    
       \resumeProjectHeading
         {\textbf{\href{https://www.aidanandrews.info/projects/climatepredict}{Climate Predict | Global Warming Calculator}} $|$ \emph{Rust, Regression Models}}{}
         \resumeItemListStart
@@ -356,16 +312,16 @@
           {\textbf{\href{https://www.youtube.com/@aidanandrews}{Content Creation}} $|$ \emph{Streamed myself working 80+ hours a week on \href{https://www.youtube.com/@aidanandrews}{youtube} and amassed 11k+ followers, 1M+ views}}{}
         
   \resumeSubHeadingListEnd
-
 %
 %-----------SKILLS & OTHER-----------
 \begin{minipage}[t]{0.48\textwidth}
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages in order of proficiency}{: C++, Python, \newline TypeScript, Kotlin, JavaScript, Java, Rust} \\
-     \textbf{Developer Tools}{: Git, Linux, CLI, Docker, AWS, Vercel, Railway} \\
-     \textbf{AI/ML}{: PyTorch, TensorFlow, Transformers, HuggingFace, OpenAI API, RAG, CrewAI, LangChain} \\
+     \textbf{Languages}{: C++, Python, TypeScript, Kotlin, JavaScript, Java, Rust, Julia} \\
+     \textbf{Developer Tools}{: Git, Linux, CLI, Docker, AWS, Vercel, Railway, CUDA} \\
+     \textbf{Robotics}{: ROS2, Isaac Sim/Lab, MuJoCo, Teleoperation} \\
+     \textbf{AI/ML}{: PyTorch, TensorFlow, Transformers, HuggingFace, OpenAI API, RAG, CrewAI, LangChain, VLA} \\
      \textbf{Web \& Cloud}{: React/Next.js, Flask, Supabase, Postgres, Firebase, Redis, Celery, FastAPI} \\
      \textbf{Data}{: SQL, Vector DBs, Object Storage} \\
     }}
@@ -379,7 +335,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     \textbf{Clubs/Organizations}{: James Scholar, NSBE, MEP} \\
-    \textbf{Interesting Facts}{: Own and run an educational and motivational discord server with over 1k members focused on CS, ML/AI, Math, Physics, education, and overall life.} \\
+    \textbf{Community}{: Run educational Discord server (1k+ members) focused on CS, ML/AI, Math, Physics, education, and life} \\
     }}
  \end{itemize}
 \end{minipage}
