@@ -1,0 +1,26 @@
+#  LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.lof
+*.lot
+*.blg
+*.bbl
+*.run.xml
+*.bcf
+*.idx
+*.ilg
+*.ind
+
+# Editor/project files (optional)
+*.auxlock
+
+# Ignore all generated PDFs? Uncomment if you don't want PDFs in git
+# *.pdf
