@@ -1,0 +1,313 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+% Originally was 10.999999999999pt, as information gets more extensive, get closer to this value %
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\urlstyle{same}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeEducationEntry}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \\
+      \textit{\small#2} & \textit{\small #3} \hfill
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSingleLineSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small#2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape \underline{Aspen Johnson}} \\ \vspace{5pt}
+    \small +1 (561) 299-8424 $|$ \href{mailto:aspenjohnson2024@gmail.com}{aspenjohnson2024@gmail.com} $|$
+    \href{https://www.linkedin.com/in/aspenjjohnson/}{linkedin.com/in/aspenjjohnson/} $|$
+    \href{https://github.com/DormantBillionaire}{github.com/DormantBillionaire} $|$
+    \href{https://www.aspenhq.dev/}{www.aspenhq.dev}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Data Science student and research assistant with experience in data curation, AI response evaluation, model validation, 
+technical documentation, and applied research across econometrics and physics. Skilled at cleaning and structuring datasets, 
+reviewing model outputs, documenting inconsistencies, and communicating technical findings clearly. Interested in AI evaluation, 
+data quality, physical AI, and computational modeling for real-world systems.
+
+%-----------ROLE-RELEVANT QUALIFICATIONS-----------
+\section{Role-Relevant Qualifications}
+  \resumeItemListStart
+    \resumeItem{Valid Florida driver's license with 4 years of U.S. driving experience.}
+    \resumeItem{Practical understanding of U.S. traffic laws, road signs, lane behavior, right-of-way rules, speed limits, traffic signals, and pedestrian safety.}
+    \resumeItem{Experience evaluating AI-generated responses, model outputs, and technical explanations for accuracy, coherence, and clarity.}
+    \resumeItem{Strong visual reasoning, spatial judgment, pattern recognition, and evidence-based decision-making developed through driving experience, athletics, physics coursework, and applied research.}
+  \resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEducationEntry
+      {Valdosta State University}
+      {Incoming B.S. in Data Science: Computational Science \& Engineering Track; Minors: Physics and Mathematics}
+      {}
+
+    \resumeEducationEntry
+      {Palm Beach State College}
+      {A.A. in STEM: Mechanical \& Aerospace Engineering Track}
+      {June 2025 -- May 2026, GPA: 3.20}
+  \resumeSubHeadingListEnd
+  
+%-----------PUBLICATIONS-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\href{https://www.tandfonline.com/doi/full/10.1080/13504851.2025.2606928}{\textbf{An empirical application of improved gradient scaling for score-driven volatility filters}}}{}
+    \resumeItemListStart
+      \resumeItem{\textit{Applied Economics Letters}, Taylor \& Francis (2025) $|$ Co-authored with \href{https://business.mercer.edu/faculty-and-insights/faculty-directory/dr-szabolcs-blazsek/}{\textbf{Szabolcs Blazsek}} (Mercer University) and \href{https://www.linkedin.com/in/adamkobor/}{\textbf{Adam Kobor}} (New York University Investment Office).}
+      \resumeItem{Contributed to data curation, analysis, software implementation, validation, visualization, and manuscript preparation for a peer-reviewed empirical modeling study.}      \resumeItem{Selected as 1 of 15 research papers to present a lecture at the 2026 Atlanta Research Conference.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Physics Undergraduate Researcher}{Mar 2026 – Present}
+      {Valdosta State University}{On-Site/Remote}
+      \resumeItemListStart
+        \resumeItem{Collaborate with Professor S. Mubin on modeling stock market illiquidity as a bridge toward larger particle simulation research.}
+        \resumeItem{Use Python-based tools including NumPy, Matplotlib, and Google Colab to analyze data, review visualizations, and document technical findings clearly.}
+        \resumeItem{Review model outputs, visualizations, and research notes for accuracy, clarity, and consistency before faculty discussion.}
+        \resumeItem{Evaluate AI-assisted summaries, model outputs, and visual evidence against source material to identify errors, inconsistencies, and unclear reasoning.}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Econometrics Researcher}{Jan 2025 – Dec 2025}
+      {Mercer University}{On-Site/Remote}
+      \resumeItemListStart
+        \resumeItem{Sourced and structured financial data from the Bloomberg Terminal, computing return series and descriptive statistics across candidate assets in Excel and R.}
+        \resumeItem{Benchmarked 6+ volatility models (gjrGARCH, sGARCH, Beta-t-EGARCH) in R and GAUSS, selecting optimal asset universe based on data sufficiency and model fit.}
+        \resumeItem{Debugged errors across R and GAUSS environments and documented line-level issues to support reproducibility, accuracy, and faculty review.}
+        \resumeItem{Validated model outputs and documented errors, inconsistencies, and performance differences across competing volatility models for weekly faculty review.}
+        \resumeItem{Co-authored peer-reviewed manuscript in \LaTeX\ published in \textit{Applied Economics Letters} (Taylor \& Francis, 2025).}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart  
+    \resumeSubheading
+      {Financial Analyst Intern}{May 2025 – Dec 2025}
+      {\href{https://www.zinzino.com/site/us/en-us/}{Zinzino USA}}{Remote}
+      \resumeItemListStart
+        \resumeItem{Reduced chargeback processing time by 87\% through workflow digitization and documentation streamlining.}
+        \resumeItem{Refined the chargeback process within the first few weeks and created a clear reference guide to support onboarding, consistency, and cross-functional accuracy.}
+        \resumeItem{Created clear process documentation that improved cross-functional understanding, consistency, and accuracy.}
+        \resumeItem{Reviewed finance-related documentation and case details for completeness, accuracy, and clarity before sharing guidance with internal stakeholders.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+    % \resumeSubheading
+      %{LIFENEVERWASTED | Clothing Brand}{2026 – Present}
+      %{FOUNDER}{}
+
+%-----------AI/ML + Physics PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Econometric Modeling in Complex Physical Systems $|$ In Progress} \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Investigating the applicability of GARCH-family models to complex physical systems exhibiting variance clustering, including geomagnetic storms, seismic activity, and solar wind turbulence.}
+            \resumeItem{Sourcing and structuring large-scale geophysical time series data from USGS, NOAA, and NCAR databases for empirical volatility modeling.}
+            \resumeItem{Reviewing time-series patterns, anomalies, and model behavior to assess whether financial econometric methods can generalize to physical systems.}
+            \resumeItem{Consulting seismic research labs to learn domain-specific considerations for interpreting earthquake time series and applying volatility-based modeling methods.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+            {\textbf{DIY Cyberdeck $|$ In Progress} $|$ \emph{Fusion 360, KiCad, PCB Design, Embedded Systems}}{}
+            \resumeItemListStart
+                \resumeItem{Designing a portable computing device with attention to component layout, physical constraints, spatial reasoning, and technical documentation.}
+            \resumeItemListEnd
+
+        \begin{comment}
+        \resumeProjectHeading
+          {\href{https://github.com/DormantBillionaire/cc-me-planner}{\textbf{CC-Me-Planner | (In Progress)}} \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Developing a full-stack academic planning web application designed to simplify semester, AA, and bachelor's degree scheduling for community college students.}
+            \resumeItem{Designing with accessibility at the forefront, addressing barriers faced by returning adults, first-generation students, and transfer-track students.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\href{https://github.com/DormantBillionaire/physics-platform}{\textbf{Physics Practice Platform | (In Progress)}}  \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Building a comprehensive physics research and learning platform designed to serve undergraduate and graduate physics education.}
+            \resumeItem{Conducting active community-driven user research by engaging physics, mathematics, and computer science student communities across Reddit, Discord, and academic forums.}
+            \resumeItem{Integrating \href{https://github.com/ManimCommunity/manim}{ManimCE} and \href{https://github.com/3b1b/manim}{ManimGL} animation engines to render programmatic, publication-quality simulations of classical mechanics, electromagnetism, and quantum systems.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\href{https://github.com/DormantBillionaire/study-dashboard}{\textbf{Name TBD | Personal Study Dashboard | (In Progress)}} $|$ \emph{HTML, CSS, JavaScript, Python, FastAPI, REST APIs}}{}
+          \resumeItemListStart
+            \resumeItem{Building a personal productivity and study dashboard integrating third-party APIs from tools utilized daily.}
+            \resumeItem{Implementing a Pomodoro focus timer with session logging and tags to track daily, weekly, monthly, and annual time allocation separated by subject.}
+            \resumeItem{Designing a digital habit and goal tracking module with persistent state management to log and visualize positive academic habits over time.}
+            \resumeItem{Integrating APIs including \href{https://developers.google.com/workspace/calendar/api/v3/reference}{Google Calendar}, \href{https://docs.github.com/en/rest}{GitHub REST API}, \href{https://github.com/sigma67/ytmusicapi}{YouTube Music (ytmusicapi)}, \href{https://github.com/urschrei/pyzotero}{Zotero (pyzotero)}, and \href{https://developerdocs.instructure.com/services/canvas}{Canvas LMS}.}
+          \resumeItemListEnd
+        
+        \resumeProjectHeading
+          {\href{https://github.com/DormantBillionaire/polarity-predictor-tool}{\textbf{Polarity Predictor Tool}} $|$ \emph{HTML, CSS, JavaScript, YAML, Git}}{} 
+          \resumeItemListStart
+            \resumeItem{Architected a modular, multi-file application across 5 independent question modules, 5 corresponding HTML question pages, and a dedicated JS results engine.}
+            \resumeItem{Implemented dynamic input handling and response logic in vanilla JavaScript, routing user answers across interconnected question modules and surfacing personalized results on the final page.}
+            \resumeItem{Created hand-drawn molecular imagery and partial charge assets to build a visually grounded learning interface.}
+          \resumeItemListEnd
+          \end{comment}
+    \resumeSubHeadingListEnd
+%-----------EXTRACURRICULAR ACTIVITIES-----------
+\section{Leadership, Community Engagement \& Extracurriculars}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\href{https://mercerbears.com/sports/womens-basketball/roster/aspen-johnson/10193}{\textbf{Division I Women's College Basketball Player}} $|$ \emph{Mercer University ~ (2022 - 2025)}}{}
+    \resumeProjectHeading
+        {\href{https://vstateblazers.com/sports/womens-basketball}{\textbf{Division II Women's College Basketball Player}} $|$ \emph{Valdosta State University ~ (Present)}}{}
+    \resumeProjectHeading
+        {\textbf{\href{https://www.youtube.com/@AP4Pres}{Content Creation}} $|$ \emph{Created educational livestream content focused on problem sets, coding projects, and technical self-study.}}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{AI/Data Review:} AI response evaluation, LLM prompt testing, data annotation, data labeling, data quality review, visual evidence review, error identification, structured documentation}{}
+
+    \resumeProjectHeading
+      {\textbf{Programming and Analysis:} Python, R, GAUSS, Java, C/C++, JavaScript, Octave, Excel}{}
+
+    \resumeProjectHeading
+      {\textbf{Data Science:} Data cleaning, exploratory data analysis, time-series analysis, model validation, statistical modeling, data visualization}{}
+
+    \resumeProjectHeading
+      {\textbf{Libraries \& Tools:} NumPy, Matplotlib, Seaborn, Google Colab, \LaTeX, Git, CLI, VS Code}{}
+
+    \resumeProjectHeading
+      {\textbf{Driving/Spatial Reasoning:} Valid Florida driver's license, U.S. traffic laws, road-sign recognition, lane behavior, right-of-way judgment, visual scenario assessment}{}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
